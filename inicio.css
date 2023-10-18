@@ -39,4 +39,10 @@ a{
     text-decoration: none;
     color: #ffffff;
     font-size: 18px;
+    font-weight: 900;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: underline;
 }
