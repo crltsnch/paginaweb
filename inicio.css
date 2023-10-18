@@ -7,12 +7,36 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 .contenedor{
     padding: 40px 0px;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     overflow: hidden;
-
 }
 
+.titulo{
+    color:rgb(99, 186, 157);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+header{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(167, 197, 250, 0.919);
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
