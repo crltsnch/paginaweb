@@ -6,20 +6,33 @@ body{
 }
 
 header{
+    display: flex;
+    align-items: center;
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
+.imagen-titulo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
 header h1{
-    font-size: 30px;
+    font-size: 36px;
     margin: 0;
+    flex: 1;
 }
 
 img{
-    max-width: 100%;
-    height: auto;
+    display: block;
+    max-width: 50%;
+    height: 50%;
+    margin: 0 auto;
 }
 
 .contenido{
@@ -32,16 +45,31 @@ img{
 
 .contenido h1{
     font-size: 20px;
-    color: #333;
+    color: #000000;
+    font-weight: 1000;
 }
 
 .contenido h2{
-    font-size: 16px;
-    color: #666;
+    font-size: 18px;
+    color: #000000;
 }
 
 .contenido p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contenido ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.contenido li{
     font-size: 16px;
     line-height: 1.5;
 }
 
+.contenido li img{
+    max-width: 50%;
+    height: 25%;
+}
