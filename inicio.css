@@ -147,6 +147,13 @@ h3 span{
     transform: scale(1);
 }
 
+.imagen-port > img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Esto asegura que la imagen mantenga su relación de aspecto */
+}
+
+
 footer{
     background: #4a4848;
     padding: 60px 0 30px 0;
