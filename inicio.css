@@ -173,3 +173,14 @@ footer{
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
+
+.contenido-footer p{
+    color:#ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
