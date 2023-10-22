@@ -72,3 +72,28 @@ h2{
     display: flex;
     justify-content: space-evenly;
 }
+
+.contenido-textos{
+    width: 70%;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+h3 span{
+    background-color: #742750;
+    color:#ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    text-align: justify;
+    padding: 0 0 30px 15px;
+    font-weight: 300;
+}
