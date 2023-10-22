@@ -148,8 +148,28 @@ h3 span{
 }
 
 footer{
-    background: #414141;
+    background: #4a4848;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenido-footer{
+   text-align: center;
+}
+
+.contenido-footer h4{
+    color:#ffffff;
+    border-bottom: 3px solid #b4732e;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
