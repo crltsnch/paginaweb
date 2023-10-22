@@ -67,3 +67,8 @@ h2{
     font-size: 25px;
     color:#ffffff;
 }
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
